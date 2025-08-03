@@ -2,15 +2,15 @@
 
 void fundamentals() {
 /* Version 1 */
->> insert here
+//>> insert here
 
 
 /* Version 2 */
->> insert here
+//>> insert here
 
 
 /* Version 3 */
->> insert here
+//>> insert here
 
 
 }
