@@ -29,3 +29,16 @@ Word #2 is 'r'
 Word #3 is 'a'
 Word #4 is 'q'
 Word #5 is 't'
+
+Type a few words separated by space (q - to quit): 
+
+Type a few words separated by space (q - to quit): 
+q
+*** End of Tokenizing Words Demo ***
+
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run? 
