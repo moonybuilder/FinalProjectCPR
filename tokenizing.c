@@ -15,7 +15,7 @@ void tokenizing(void)
         fgets (words, BUFFER_SIZE, stdin) ; //gets user input (up to 300 chars)
         words[strlen (words) - 1] = '\0'; //ensures 'words' is a valid c string 
         if (strcmp (words, "q") != 0) {
-            nextWord = strtok(words, " "); //tokenizes groups of chars seperated by a space
+            nextWord = strtok(words, " "); //tokenizes groups of chars(words) seperated by a space
             wordsCounter = 1;
             while (nextWord) 
             {

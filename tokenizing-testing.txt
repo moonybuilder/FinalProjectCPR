@@ -42,3 +42,16 @@ q
 4 - Tokenizing
 0 - Exit
 Which module to run? 
+
+Type a few words separated by space (q - to quit): 
+gggg jwbgdhjwhjdh bjhhj bjhjhkjjkkjhkjhkjhkhjk hjbh t78687hh 7887 wratesyrdutfciygkvujvhjfcghxrdye5rthjfghkguofiydutsrxhjcghkfguot7ri6uedtyjfkufiduyjfs5eu6riykfhgtdsd5e6irydj6dstuxcjyf76dutxcjyvfidcjhvkhcyfiukvh hjvcgtxyrzsu5d6if7oyukvhjufidut6uyfut98oiuyufduxtgjc vi
+Word #1 is 'gggg'
+Word #2 is 'jwbgdhjwhjdh'
+Word #3 is 'bjhhj'
+Word #4 is 'bjhjhkjjkkjhkjhkjhkhjk'
+Word #5 is 'hjbh'
+Word #6 is 't78687hh'
+Word #7 is '7887'
+Word #8 is 'wratesyrdutfciygkvujvhjfcghxrdye5rthjfghkguofiydutsrxhjcghkfguot7ri6uedtyjfkufiduyjfs5eu6riykfhgtdsd5e6irydj6dstuxcjyf76dutxcjyvfidcjhvkhcyfiukvh'
+Word #9 is 'hjvcgtxyrzsu5d6if7oyukvhjufidut6uyfut98oiuyufduxtgjc'
+Word #10 is 'vi'
