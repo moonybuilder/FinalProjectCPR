@@ -8,7 +8,7 @@ int main (void)
 { 
     char buff[10];
     do{
-        printf ("1 - Fundamentals\n") ; 
+        printf ("1 - Fundamentals\n") ; //user menu
         printf ("2 - Manipulation\n") ; 
         printf ("3 - Converting\n") ; 
         printf ("4 - Tokenizing\n") ;
@@ -22,9 +22,9 @@ int main (void)
             break;
             case '3': //converting();
             break;
-            case '4': tokenizing();
+            case '4': tokenizing(); //calls tokenizing function in .c file
             break;
         }
-    } while (buff[0] != '0');
+    } while (buff[0] != '0'); //runs while user menu input is not 0
     return 0;
 }   
