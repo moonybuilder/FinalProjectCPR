@@ -1,0 +1,31 @@
+##################
+Version 1 Testing
+##################
+
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run? 
+4
+
+*** Start of Tokenizing Words Demo ***
+Type a few words separated by space (q - to quit): 
+hello
+Word #1 is 'hello'
+
+Type a few words separated by space (q - to quit): 
+this string is tokenized
+Word #1 is 'this'
+Word #2 is 'string'
+Word #3 is 'is'
+Word #4 is 'tokenized'
+
+Type a few words separated by space (q - to quit): 
+u r a q t
+Word #1 is 'u'
+Word #2 is 'r'
+Word #3 is 'a'
+Word #4 is 'q'
+Word #5 is 't'
