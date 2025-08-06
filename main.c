@@ -1,7 +1,3 @@
-#define _CRT_ SECURE_NO_WARNINGS
-#include "fundamentals.h"
-#include "manipulating.h"
-#include "converting.h"
 #include "tokenizing.h"
 
 int main (void)

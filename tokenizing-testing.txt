@@ -55,3 +55,52 @@ Word #7 is '7887'
 Word #8 is 'wratesyrdutfciygkvujvhjfcghxrdye5rthjfghkguofiydutsrxhjcghkfguot7ri6uedtyjfkufiduyjfs5eu6riykfhgtdsd5e6irydj6dstuxcjyf76dutxcjyvfidcjhvkhcyfiukvh'
 Word #9 is 'hjvcgtxyrzsu5d6if7oyukvhjufidut6uyfut98oiuyufduxtgjc'
 Word #10 is 'vi'
+
+##################
+Version 2 Testing
+##################
+
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run? 
+4
+*** Start of Tokenizing Words Demo ***
+Type a few words separated by space (q - to quit): 
+q
+*** End of Tokenizing Words Demo ***
+
+*** Start of Tokenizing Phrases Demo ***
+Type a few phrases separated by comma (q - to quit) :
+this.is a, token-ized, phrase
+Phrase #1 is 'this.is a'
+Phrase #2 is ' token-ized'
+Phrase #3 is ' phrase'
+
+Type a few phrases separated by comma (q - to quit) :
+the semester is done, but the projects are, underway.
+Phrase #1 is 'the semester is done'
+Phrase #2 is ' but the projects are'
+Phrase #3 is ' underway.'
+
+Type a few phrases separated by comma (q - to quit) : 
+
+Type a few phrases separated by comma (q - to quit) : 
+q
+*** End of Tokenizing Phrases Demo***
+
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run? 
+
+Type a few phrases separated by comma (q - to quit) :
+q,uit this,program now
+Phrase #1 is 'q'
+Phrase #2 is 'uit this'
+Phrase #3 is 'program now'
+*** End of Tokenizing Phrases Demo***
