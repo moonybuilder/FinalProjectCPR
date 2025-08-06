@@ -28,30 +28,46 @@ void tokenizing(void)
 
 
 /* Version 2 */
-printf ("*** Start of Tokenizing Phrases Demo ***\n");
+printf ("*** Start of Tokenizing Phrases Demo ***\n");//start of phrases tokenizer
 char phrases[BUFFER_SIZE];
 char* nextPhrase = NULL; 
 int phrasesCounter;
 do
 {
-    printf("Type a few phrases separated by comma (q - to quit) :\n");
-    fgets(phrases, BUFFER_SIZE, stdin) ;
-    phrases [strlen (phrases) - 1] = '\0';
+    printf("Type a few phrases separated by comma (q - to quit) :\n");//prompt for user input
+    fgets(phrases, BUFFER_SIZE, stdin) ;//gets user input (up to 300 chars)
+    phrases [strlen (phrases) - 1] = '\0';//ensures 'phrases' is a valid c string 
     if((strcmp (phrases, "q") != 0)) 
     {
-        nextPhrase = strtok (phrases, ",");
+        nextPhrase = strtok (phrases, ",");//tokenizes groups of chars(phrases) seperated by a comma
         phrasesCounter = 1;
         while(nextPhrase) 
         {
-            printf ("Phrase #%d is \'%s\'\n", phrasesCounter++, nextPhrase);
-            nextPhrase = strtok (NULL, ",");
+            printf ("Phrase #%d is \'%s\'\n", phrasesCounter++, nextPhrase);//prints each tokenized phrase in order and updates 'phrasesCounter'
+            nextPhrase = strtok (NULL, ","); //updates already printed token to NULL
         }   
     }
-}while (strcmp (phrases, "q") != 0);
-printf ("*** End of Tokenizing Phrases Demo***\n\n");
+}while (strcmp (phrases, "q") != 0); //runs while user does not enter the string literal "q"
+printf ("*** End of Tokenizing Phrases Demo***\n\n"); //end of phrases tokenizer
 
 /* Version 3 */
-
-
+printf ("*** Start of Tokenizing Sentences Demo ***\n") ; //start of sentence tokenizer
+char sentences [BUFFER_SIZE];
+char* nextSentence = NULL;
+int sentencesCounter;
+do {
+    printf ("Type a few sentences separated by dot (q - to quit) :\n");//prompt for user input
+    fgets(sentences, BUFFER_SIZE, stdin);//gets user input (up to 300 chars)
+    sentences[strlen(sentences) - 1] = '\0';//ensures 'sentences' is a valid c string
+    if ((strcmp (sentences, "q") != 0)){
+        nextSentence = strtok (sentences,".");//tokenizes groups of chars(sentences) seperated by a period
+        sentencesCounter = 1;
+        while (nextSentence){
+            printf ("Senetnce #%d is \'%s\'\n", sentencesCounter++, nextSentence);//prints each tokenized sentence in order and updates 'sentencesCounter'
+            nextSentence = strtok(NULL, ".");
+        }
+    }
+} while (strcmp (sentences, "q") != 0) ;//runs while user does not enter the string literal "q"
+printf ("*** End of Tokenizing Sentences Demo ***\n\n"); //end of sentence tokenizer
 
 }

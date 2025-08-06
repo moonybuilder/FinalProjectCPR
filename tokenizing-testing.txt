@@ -91,6 +91,40 @@ Type a few phrases separated by comma (q - to quit) :
 q
 *** End of Tokenizing Phrases Demo***
 
+##################
+Version 3 Testing
+##################
+
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run? 
+4
+*** Start of Tokenizing Words Demo ***
+Type a few words separated by space (q - to quit): 
+q
+*** End of Tokenizing Words Demo ***
+
+*** Start of Tokenizing Phrases Demo ***
+Type a few phrases separated by comma (q - to quit) :
+q
+*** End of Tokenizing Phrases Demo***
+
+*** Start of Tokenizing Sentences Demo ***
+Type a few sentences separated by dot (q - to quit) :
+this is,a,tokenized-phrase.the semester is done, but the projects are, underway.
+Senetnce #1 is 'this is,a,tokenized-phrase'
+Senetnce #2 is 'the semester is done, but the projects are, underway'
+
+Type a few sentences separated by dot (q - to quit) :
+q.uit this program. i'll hit enter, and you quit.
+Senetnce #1 is 'q'
+Senetnce #2 is 'uit this program'
+Senetnce #3 is ' i'll hit enter, and you quit'
+*** End of Tokenizing Sentences Demo ***
+
 1 - Fundamentals
 2 - Manipulation
 3 - Converting
@@ -98,9 +132,12 @@ q
 0 - Exit
 Which module to run? 
 
-Type a few phrases separated by comma (q - to quit) :
-q,uit this,program now
-Phrase #1 is 'q'
-Phrase #2 is 'uit this'
-Phrase #3 is 'program now'
-*** End of Tokenizing Phrases Demo***
+Type a few sentences separated by dot (q - to quit) :
+I wasn’t sure what to say, so I paused… thought for a moment… then finally replied.
+Senetnce #1 is 'I wasn’t sure what to say, so I paused… thought for a moment… then finally replied'\
+
+Type a few sentences separated by dot (q - to quit) :
+
+Type a few sentences separated by dot (q - to quit) :
+q
+*** End of Tokenizing Sentences Demo ***
